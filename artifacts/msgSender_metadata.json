@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMsgSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/007_msgSender.sol": "msgSender"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/007_msgSender.sol": {
+			"keccak256": "0x33078c2c5561de59aaf5208c49a2f4dd1fc004914a440752510f3d800d3fef29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94eb2889b93b7d923181e112f1cf0c0e5edb2883f8b4de281a6e66114470f78b",
+				"dweb:/ipfs/QmQPXebUQ1asSXWPHBd51Qz3yc6jHKEBdCBWRQYpK2xsJf"
+			]
+		}
+	},
+	"version": 1
+}

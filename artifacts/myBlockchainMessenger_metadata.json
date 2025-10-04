@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "change_counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_getString",
+						"type": "string"
+					}
+				],
+				"name": "updateMyString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/010_BlockchainMessengerProject.sol": "myBlockchainMessenger"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/010_BlockchainMessengerProject.sol": {
+			"keccak256": "0x0f8e1545e29ea1bcdfc497e67a9107ff0a88b94b0469d55009eb318d7fee3931",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a462b8205ab1a062ba61ae2475404d52c376cee183b81b3be9f1b87d9155e2e",
+				"dweb:/ipfs/QmeMEPHf64XRx9FGnEMpF76ocRM8ShdU9VGBGJ93UXV6Bn"
+			]
+		}
+	},
+	"version": 1
+}
