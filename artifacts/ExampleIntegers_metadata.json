@@ -7,21 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "decrement_signed",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "decrement_unsigned",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment_signed",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -35,38 +21,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "myInt1",
+				"name": "myUint",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -86,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/003_Integers.sol": "ExampleIntegers"
+			"contracts/004_RollOverIntegers.sol": "ExampleIntegers"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -100,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/003_Integers.sol": {
-			"keccak256": "0xfb78d3b8016bec2bb20e3d44e3918ae407b170db063119a386d1c5dbaee74a37",
+		"contracts/004_RollOverIntegers.sol": {
+			"keccak256": "0x3a02b4b7ef6c075b2bee1dcb54dad13fb11b9a616891d5e0888fcb01c70d05fa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6455c692cd8caf3108ae51b28ae8664c6ac2f5db39df60edb90a5a9e6f8b5c59",
-				"dweb:/ipfs/QmTUtW51ohzUwpDjbMFyTL86YYQYDLSnXhpbQQuohEgDgm"
+				"bzz-raw://d8936bf9906a94ca8dcdf52769d4e8b3a9a082534f43bff20fbea33a1a9e4c5a",
+				"dweb:/ipfs/Qmeuqv5kBmD5WpmW2fqEJ2zpqqo6YWaBRozaM7ogUriDZ7"
 			]
 		}
 	},
