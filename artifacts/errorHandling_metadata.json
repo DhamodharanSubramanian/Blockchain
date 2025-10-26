@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "errCode",
+						"type": "uint256"
+					}
+				],
+				"name": "eventAssertError",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "lowLevelData",
+						"type": "bytes"
+					}
+				],
+				"name": "eventCustomError",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "errorReason",
+						"type": "string"
+					}
+				],
+				"name": "eventRequireError",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "catchAssertError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "catchCustomError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "catchRequireError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/021_TryCatch.sol": "errorHandling"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/021_TryCatch.sol": {
+			"keccak256": "0x441d6bbcf5d7a2edff058ed89530fa99dcd58a617b94558861f95dcfb3b6f982",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a0005f747145ffb07ef737b5d02b5acbb16583719e829ef31d4f4b76b57d466",
+				"dweb:/ipfs/QmYLHaxkHJbS19RyZCQ1ngLS1HDhUBDYHtTvBgpzRd58sF"
+			]
+		}
+	},
+	"version": 1
+}

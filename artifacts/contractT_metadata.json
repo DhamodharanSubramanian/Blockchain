@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getThisSCBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/023_Call_SC_by_ExternalFunctionCall.sol": "contractT"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/023_Call_SC_by_ExternalFunctionCall.sol": {
+			"keccak256": "0xe1129b3d70d2edd3c53780c9c22b12fa10b3b60776479548d5392c9755a2d6d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb435c8e8099e519df6aac08353fac80486a90e8847452e3731873b4e02c3e0a",
+				"dweb:/ipfs/QmSCHnyBi2oWB7x6uY2ZyN5qhG7jazzsTu1e1hSsxa5FmU"
+			]
+		}
+	},
+	"version": 1
+}

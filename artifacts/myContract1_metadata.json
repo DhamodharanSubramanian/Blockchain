@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paymentDetails",
+				"outputs": [
+					{
+						"internalType": "contract myChildContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/017_ChildContractVSStruct.sol": "myContract1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/017_ChildContractVSStruct.sol": {
+			"keccak256": "0x2a7d793957c9248ceb5c36909e84cb598872d5b257104358fe1235dce1cc2b81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d24784378b2e151793b0e9486a67a719b03bafbe2bd6264998427212a83307c",
+				"dweb:/ipfs/QmSrAx9sPRbtkjEFDsiQf3SgivTUjxWbTGExmcfnCbZxYm"
+			]
+		}
+	},
+	"version": 1
+}
